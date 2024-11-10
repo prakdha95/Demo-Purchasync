@@ -174,7 +174,8 @@ body {
     .hero_section .hero_left p {
         padding: 0 10px;
         text-align: center;
-        font-size: 16px;
+        margin: 0;
+        font-size: 20px;
         padding-bottom: 20px;
     }
 }
@@ -207,6 +208,7 @@ body {
     .hero_section .hero_left .cta_btn button {
         margin-top: 14px;
         background-color: #FF595D;
+        width: 90vw;
     }
 }
 
@@ -317,11 +319,11 @@ body {
 
 @media (max-width:500px) {
     .demo_page_main .top_nav {
-        padding: 020px;
+        padding: 20px;
     }
 
     .demo_page_main .top_nav .logo {
-        width: 60%;
+        width: 40%;
         margin: 0;
         padding: 0;
     }
